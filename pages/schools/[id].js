@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import { supabase } from '../lib/supabase'
-import Layout from '../components/layout'
-import styles from '../styles/school-detail.module.css'
+import { supabase } from './lib/supabase'
+import Layout from './components/layout'
+import styles from './styles/school-detail.module.css'
 
 export default function SchoolDetail() {
   const router = useRouter()
